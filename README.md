@@ -21,8 +21,9 @@ Um dos pacotes  a ser instalado é o `nodemon`, uma ferramenta que reinicia auto
 ```
   - Retorna o HTML com o form de Upload
 
+<br />
+
 ```
 /uploads
 ```
   - Ao fazer o upload esta rota será chamada com a mensagem **"Uploaded"**
-i
