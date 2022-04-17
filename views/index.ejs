@@ -1,0 +1,67 @@
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  div {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  form {
+    top: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    height: 300px;
+    border: 1px solid rgb(162, 162, 162);
+    border-radius: 8px;
+    padding: 2rem;
+    background: rgb(221, 221, 221);
+  }
+  
+  form>input {
+    background: rgb(197, 197, 197);
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 16px;
+    font-family: 'Montserrat', 'Ubuntu', 'Times New Roman', Times, serif;
+  }
+
+  form>input:hover {
+    background: rgb(175 175 175);
+  }
+
+  form>button {
+    border-radius: 8px;
+    border: none;
+    background-color: blue;
+    cursor: pointer;
+    width: 100%;
+    font-size: 14pt;
+    color: white;
+    font-weight: 600;
+    padding: 16px;
+    font-family: 'Montserrat', 'Ubuntu', 'Times New Roman', Times, serif;
+  }
+
+  form>button:hover {
+    background-color: #6464ff;
+  }
+</style>
+
+<div>
+  <form method="post" enctype="multipart/form-data" action="../uploads/">
+    <input type='file' name="file" placeholder="file" />
+
+    <button type="submit">Send</button>
+  </form>
+</div>
