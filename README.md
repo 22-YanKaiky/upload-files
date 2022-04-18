@@ -24,7 +24,7 @@ Para rodar o projeto, use o comando:
 
 ### Porta
 ```
-  5000
+  3000
 ```
 
 ### Rotas
