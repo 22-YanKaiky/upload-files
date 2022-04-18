@@ -4,20 +4,23 @@ O `multer` é um manipulador de dados ***multipart/form-data***, que é usado pr
 
 Link para a documentação: https://www.npmjs.com/package/multer
 
-<br />
-
 Link do repositório: https://github.com/expressjs/multer
 
 ### Projeto
 
 Primeiramente instale as dependências de pacote
 
-Rode: 
 ```
   npm i
 ```
 
 Um dos pacotes  a ser instalado é o `nodemon`, uma ferramenta que reinicia automaticamete o aplicativo caso hajam alterações.
+
+Para rodar o projeto, use o comando:
+
+```
+  npm run dev
+```
 
 ### Porta
 ```
