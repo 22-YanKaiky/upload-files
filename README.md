@@ -1,5 +1,15 @@
 ### Upload de Arquivos com Multer 👨‍💻
 
+O `multer` é um manipulador de dados ***multipart/form-data***, que é usado principalmente para fazer upload de arquivos.
+
+Link para a documentação: https://www.npmjs.com/package/multer
+
+<br />
+
+Link do repositório: https://github.com/expressjs/multer
+
+### Projeto
+
 Primeiramente instale as dependências de pacote
 
 Rode: 
